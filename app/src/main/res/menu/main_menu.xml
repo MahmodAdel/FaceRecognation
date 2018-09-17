@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+    android:id="@+id/action_logout"
+    android:icon="@mipmap/ic_logout"
+    android:title="LogOut"
+    app:showAsAction="never"
+    />
+  <!--  <item
+        android:id="@+id/action_manage"
+        android:icon="@mipmap/ic_logout"
+        android:title="ManageAlgo"
+        app:showAsAction="never"
+        android:visible="false" />-->
+    <item
+        android:id="@+id/action_group"
+        app:showAsAction="never"
+        android:title="group"
+        android:icon="@drawable/groupp"
+        />
+    <item
+        android:id="@+id/action_search"
+        android:title="search"
+        android:icon="@mipmap/ic_search_white_24dp"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="100"
+        />
+
+</menu>

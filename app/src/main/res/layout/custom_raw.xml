@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/listIcon"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/listText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dumy Text"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
